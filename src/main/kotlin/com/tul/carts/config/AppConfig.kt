@@ -22,7 +22,7 @@ class AppConfig {
     fun corsConfig(): WebMvcConfigurer {
         return object : WebMvcConfigurer {
             override fun addCorsMappings(registry: CorsRegistry) {
-                registry.addMapping("/**").allowedOrigins("http://localhost:4200")
+                registry.addMapping("/**").allowedOrigins("http://localhost:4200").allowedMethods("*")
             }
         }
     }
