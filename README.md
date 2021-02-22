@@ -32,4 +32,4 @@ Retorna el nuevo estado del carrito <br>
 </code>
 </pre>
 DELETE http://localhost:8080/api/carts/{user}/{product-uuid} Elimina un producto del carrito en caso de que este lo contenga <br>
-POST http://localhost:8080/api/carts/{user}/checkout   Cambia el estado del carrito a completado. 
+POST http://localhost:8080/api/carts/{user}/checkout   Cambia el estado del carrito a completado.
