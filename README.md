@@ -15,9 +15,9 @@ Por defecto se lanzará en la ruta: locahost:8080. La url root de la api es "/ap
 GET http://localhost:8080/api/products Retorna el listado de productos
 
 <h5>Carts:</h5>
-GET  http://localhost:8080/api/carts/{user} retorna el carrito en estado pendiente asociado al usuario, si no tiene ninguno se crea uno y lo retorna
+GET  http://localhost:8080/api/carts/{user} retorna el carrito en estado pendiente asociado al usuario, si no tiene ninguno se crea uno y lo retorna <br>
 POST http://localhost:8080/api/carts/{user} Añade un nuevo producto al carrito, si ya existe se actualiza a la nueva cantidad enviada.
-Retorna el nuevo estado del carrito
+Retorna el nuevo estado del carrito <br>
 <h6>BODY</h6>
 <pre>
 <code>
