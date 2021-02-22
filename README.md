@@ -1,19 +1,20 @@
 # TulChallenge
-Tul challenge project
 
-Prueba Tul
-El siguiente es un proyecto gradle.
+<h3>Prueba Tul</h3>
+<p>
+El siguiente es un proyecto gradle. Usar el IDE de su preferencia.
+<p>
 
-Usar el IDE de su preferencia.
-Por defecto se lanzará en la ruta: locahost:8080
-Las url root de la api es "/api"
+<p>
+Por defecto se lanzará en la ruta: locahost:8080. La url root de la api es "/api"
+</p>
 
-Endpoints:
+<h4>Endpoints:</h4>
 
-Productos:
+<h5>Productos:</h5>
 GET http://localhost:8080/api/products Retorna el listado de productos
 
-Carts:
+<h5>Carts:</h5>
 GET  http://localhost:8080/api/carts/{user} retorna el carrito en estado pendiente asociado al usuario, si no tiene ninguno se crea uno y lo retorna
 POST http://localhost:8080/api/carts/{user} Añade un nuevo producto al carrito, si ya existe se actualiza a la nueva cantidad enviada.
 Retorna el nuevo estado del carrito
